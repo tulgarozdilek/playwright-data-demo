@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Admin User",
+    "username": "admin@test.com",
+    "password": "admin123",
+    "expectedRole": "admin"
+  },
+  {
+    "type": "Normal User",
+    "username": "user@test.com",
+    "password": "user123",
+    "expectedRole": "user"
+  },
+  {
+    "type": "Invalid User",
+    "username": "invalid@test.com",
+    "password": "wrongpassword",
+    "expectedRole": "error"
+  }
+]

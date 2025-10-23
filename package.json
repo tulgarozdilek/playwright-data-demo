@@ -1,0 +1,19 @@
+{
+  "name": "playwright-data-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.9.1",
+    "@types/sqlite3": "^3.1.11"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "sqlite3": "^5.1.7"
+  }
+}
