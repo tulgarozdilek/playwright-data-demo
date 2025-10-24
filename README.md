@@ -93,8 +93,3 @@ Note: Some tests load HTML files directly from disk (using `file://` URLs) or re
 3. npx playwright test
 
 ---
-
-If you'd like, I can also:
-- add npm scripts to `package.json`,
-- install Playwright browsers automatically, or
-- add a small static server and update `playwright.config.ts` to use `webServer` for a more realistic test environment.
